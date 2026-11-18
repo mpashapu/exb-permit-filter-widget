@@ -1,0 +1,23 @@
+export default {
+  _widgetLabel: 'Permit Filter',
+  configure: 'Select a feature layer and a category field in the widget settings.',
+  dataSourceFailed: 'The layer could not be loaded. Check that it still exists and that you have access.',
+  categories: 'Type',
+  loading: 'Loading values…',
+  optionsFailed: 'Could not load values from the layer. Enter them in the widget settings instead.',
+  dateRange: 'Date',
+  from: 'From',
+  to: 'To',
+  valueRange: 'Value',
+  min: 'Minimum',
+  max: 'Maximum',
+  apply: 'Apply',
+  clear: 'Clear',
+  counting: 'Counting matching features…',
+  countFailed: 'Filter applied, but the matching count could not be loaded.',
+  matches: '{count, plural, one {# feature matches} other {# features match}} ({filters, plural, =0 {no filters} one {# filter} other {# filters}} applied).',
+  invalidDate: 'Enter dates as yyyy-mm-dd.',
+  dateOrder: 'The start date must be on or before the end date.',
+  invalidNumber: 'Enter valid numbers for the value range.',
+  valueOrder: 'The minimum must be less than or equal to the maximum.'
+}

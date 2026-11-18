@@ -1,0 +1,13 @@
+{
+  "//": "Type-checks the framework-independent code. Widget/setting TSX is checked by the Experience Builder client, which provides the jimu-* types.",
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["vitest/globals"]
+  },
+  "include": ["permit-filter/src/runtime/filter-utils.ts", "permit-filter/tests/**/*.ts"]
+}

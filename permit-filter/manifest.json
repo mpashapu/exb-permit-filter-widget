@@ -1,0 +1,19 @@
+{
+  "name": "permit-filter",
+  "label": "Permit Filter",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.21.0",
+  "author": "Malla Reddy Pashapu",
+  "description": "Filter a feature layer by category, date range and value. Built for building permits; works with any layer that has similar fields.",
+  "copyright": "",
+  "license": "https://opensource.org/licenses/MIT",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 320,
+    "height": 520
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "exb-permit-filter-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ArcGIS Experience Builder custom widget for filtering permits (or any feature layer) by category, date and value.",
+  "author": "Malla Reddy Pashapu",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "check:tsx": "node scripts/check-tsx.mjs",
+    "ci": "npm run typecheck && npm run check:tsx && npm test"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
